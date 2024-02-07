@@ -44,3 +44,6 @@ Access the application:
 
 Open your web browser and navigate to http://localhost:3000 (or the appropriate URL if configured differently).
 
+![Screenshot 2024-02-07 162306](https://github.com/chetan791/PDC-Assignment/assets/118180630/2ff5c150-9e7a-4607-89af-70147b2a0bc4)
+![Screenshot 2024-02-07 162237](https://github.com/chetan791/PDC-Assignment/assets/118180630/2e1fe061-3b8f-4035-9bb6-b26aae642441)
+
