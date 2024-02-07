@@ -72,7 +72,7 @@ const DIV = styled.div`
       grid-template-columns: 1fr 1fr;
       grid-gap: 10px;
       grid-template-rows: 1fr 1fr;
-      border: 1px solid black;
+      //border: 1px solid black;
       padding-left: 11%;
     }
   }
