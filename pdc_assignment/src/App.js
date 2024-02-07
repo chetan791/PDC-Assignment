@@ -63,7 +63,9 @@ const DIV = styled.div`
   #icons {
     display: flex;
     justify-content: space-evenly;
-    /* padding: 20px; */
+    padding: 20px;
+    /* border: 1px solid black; */
+    width: 100%;
   }
   img {
     height: 100px;
@@ -77,6 +79,7 @@ const DIV = styled.div`
       width: 100%;
     }
     #icons {
+      width: auto;
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-gap: 10px;
