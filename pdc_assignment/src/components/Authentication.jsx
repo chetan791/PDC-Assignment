@@ -63,7 +63,7 @@ export const Authentication = () => {
   return (
     <DIV>
       <button
-        style={{ marginBottom: "10px", marginLeft: "45%" }}
+        style={{ marginBottom: "10px", display: "block", marginTop: "20px" }}
         onClick={() => setShowLogin(!showLogin)}
       >
         {showLogin ? "Go to Login" : "Go to Register"}
@@ -144,9 +144,15 @@ const DIV = styled.div`
     padding: 10px;
     border-radius: 10px;
     border: 2px solid black;
+    align-items: center;
   }
   button:hover {
     background-color: black;
     color: white;
+  }
+  @media (max-width: 600px) {
+    div {
+      width: 300px;
+    }
   }
 `;

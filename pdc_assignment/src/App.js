@@ -39,12 +39,18 @@ const DIV = styled.div`
   margin: 0;
   padding: 0;
   height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   #MainHeader {
     text-align: center;
     background-color: #d3d3d3;
     padding: 20px;
     font-weight: 400;
-    /* width: 100%; */
+    width: 100%;
+    border: 1px solid black;
+    margin: 0;
   }
   #intro {
     text-align: center;
@@ -57,7 +63,7 @@ const DIV = styled.div`
   #icons {
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
+    /* padding: 20px; */
   }
   img {
     height: 100px;
@@ -67,13 +73,17 @@ const DIV = styled.div`
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   @media (max-width: 600px) {
+    #MainHeader {
+      width: 100%;
+    }
     #icons {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-gap: 10px;
       grid-template-rows: 1fr 1fr;
-      /* border: 1px solid black; */
-      padding-left: 11%;
+    }
+    img {
+      height: 70px;
     }
   }
 `;
