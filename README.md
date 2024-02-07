@@ -3,17 +3,11 @@ Login and Register System
 This repository contains the source code for a simple login and register system implemented using HTML, CSS, Javascript, React, Node.js, Express.js, MongoDB.
 
 Features
-User Authentication: Users can securely log in and register accounts.
-
-Session Management: Session management ensures users stay logged in across multiple pages until they choose to log out.
-
-Password Encryption: Passwords are encrypted using industry-standard hashing algorithms to ensure security.
-
-Validation: Form validation is implemented to ensure that users enter valid information during registration.
-
-Error Handling: Comprehensive error handling is implemented to guide users and prevent misuse of the system.
-
-Responsive Design: The user interface is designed to be responsive and work seamlessly across various devices and screen sizes.
+1.User Authentication: Users can securely log in and register accounts.
+2Password Encryption: Passwords are encrypted using industry-standard hashing algorithms to ensure security.
+3.Validation: Form validation is implemented to ensure that users enter valid information during registration.
+4.Error Handling: Comprehensive error handling is implemented to guide users and prevent misuse of the system.
+5.Responsive Design: The user interface is designed to be responsive and work seamlessly across various devices and screen sizes.
 
 Technologies Used
 Frontend: HTML, CSS, JavaScript, React, Styled Components.
