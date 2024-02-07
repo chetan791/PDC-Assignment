@@ -53,7 +53,7 @@ export const Authentication = () => {
       );
       const data = await res.json();
       console.log(data);
-      alert(data);
+      alert("Registered");
     } catch (error) {
       console.log(error);
       alert("Error in register");
