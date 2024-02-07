@@ -4,9 +4,13 @@ This repository contains the source code for a simple login and register system 
 
 Features
 1.User Authentication: Users can securely log in and register accounts.
+
 2Password Encryption: Passwords are encrypted using industry-standard hashing algorithms to ensure security.
+
 3.Validation: Form validation is implemented to ensure that users enter valid information during registration.
+
 4.Error Handling: Comprehensive error handling is implemented to guide users and prevent misuse of the system.
+
 5.Responsive Design: The user interface is designed to be responsive and work seamlessly across various devices and screen sizes.
 
 Technologies Used
