@@ -44,7 +44,7 @@ const DIV = styled.div`
     background-color: #d3d3d3;
     padding: 20px;
     font-weight: 400;
-    width: 100%;
+    /* width: 100%; */
   }
   #intro {
     text-align: center;
@@ -72,7 +72,7 @@ const DIV = styled.div`
       grid-template-columns: 1fr 1fr;
       grid-gap: 10px;
       grid-template-rows: 1fr 1fr;
-      //border: 1px solid black;
+      /* border: 1px solid black; */
       padding-left: 11%;
     }
   }
