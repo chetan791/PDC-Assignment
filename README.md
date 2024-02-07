@@ -19,7 +19,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/login-register-system.git
+git clone https://github.com/chetan791/PDC-Assignment.git
 Install dependencies:
 
 bash
